@@ -1,3 +1,0 @@
-test2 9
-test 11
-duy1 14
