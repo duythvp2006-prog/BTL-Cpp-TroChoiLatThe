@@ -9,13 +9,13 @@ public:
     void dungLai(); 
     void datLai();
 
-    Uint32 miliGiayDaTroiQua() const; //QUAN TRONG: chu thich dong 17
-    double giayDaTroiQua() const;					//
-													//
-private:											//
-    Uint32 mocBatDau;								//
-    Uint32 mocKetThuc; //Thoi gian thì có KET THUC (limit), nhung su ÐEPj TRAI cua LÝ ÐATj thì 0
-    bool dangChay; // QUAN TRONG: doc chu thich dong 17
+    Uint32 miliGiayDaTroiQua() const;
+    double giayDaTroiQua() const;				
+													
+private:											
+    Uint32 mocBatDau;								
+    Uint32 mocKetThuc; 
+    bool dangChay;
 };
 
 class DongHoDemNguoc : public DongHoBamGio {
